@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+@font-face {
+    font-family: "FantasqueSansMono-Italic.ttf";
+    src: url("../fonts/FantasqueSansMono-Italic.ttf") format("trutype");
+    font-style: italic;
+    font-weight: 200;
+}
+    
+p{ 
+    font-family: "FantasqueSansMono-Italic";
+    font-family: 'Fantasque Sans Mono', sans-serif;
+    font-style: italic;
+}
+
+
+
+
+.moeono{
+    color: yellowgreen;
+    /* задаем цвет */
+}
+    
+h1{/* h1 без точек - все h1 будут одного цвета */
+    color:blue
+}
+
+ul li {
+    color: brown;
+    font-size: large;
+    /* задаем цвет элементов списка */
+}
+    
+nav > ul{
+    background-color: lime;
+    border-radius: 10px;
+    /* меняем цвет заднего фона списков */
+    /* закругляем фрейм списка */
+}
+    
+a{
+    color:red;
+}
+/* это цвет ссылки не активной не активированной просто в покое находящейся */
+    
+a:hover{
+    color:salmon;
+    }
+/* это цвет наведенной ссылки */
+    
+h2+p {
+    font-size: small;
+    color: aqua;
+    font-weight: bolder;
+}
+/* когда встречается комбинация h2+p  */
+
+/* задаем коробочку */
+    
+.fif{
+    width: 90vw;
+    /* 90vw — 90% от экрана занимает контейнер */
+    height: 250px;
+    background-color: darkgoldenrod;
+    border-radius: 3px;
+}
+    
+.ddd{
+    color: darkblue;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.uuu{
+    color: darkblue;
+    width: 200px;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 10px;
+}
+    
+.content-container{
+    background-color: blueviolet;
+    margin-top: 4%;
+    padding-top: 2%;
+}
+/* отступ сверху от контейнера- margin top*/
+/* внутренний отступ - padding-top */
+
+    
+a{
+    color: inherit;
+    /* наследование цвета */
+}
+    
+h1,h2,h3,p,ul,ol,li,blockquote{
+    width: 700px;
+    margin: 0px auto;
+}
+    
+h1{
+    margin-top: 66px;
+    font-size: 38px;
+    line-height: 45px;
+}
+
+img{
+    display: block;
+    width: 1020px;
+    margin: 80px auto 0;
+}
+
+
+
+
+.container{
+    display: flex;
+}
+/* flex — в строчку контейнеры */
+    
+.block{
+    display: flex;
+    justify-content: space-between;
+}
+/* space-between — на всю ширину экрана */
+    
+.blockend{
+    display: flex;
+    justify-content: flex-end;
+}
+/* выключка по правому краю */
+    
+.blockcenter{
+    display: flex;
+    justify-content: center;
+}
+/* по центру */
+    
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    color: blueviolet;
+    text-align: center;
+    line-height: 50px;
+    margin: 10px;
+}
+    
+.zagolowok{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
